@@ -1,0 +1,32 @@
+{
+  "name": "chbie/formulars",
+  "type": "library",
+  "description": "formulars is a example for a validating formular aggregat",
+  "keywords": [
+    "forms"
+  ],
+  "homepage": "http://www.christian-biedermann.de",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Christian Biedermann",
+      "email": "mail@christian-biedermann.de",
+      "homepage": "http://www.christian-biedermann.de",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChBie\\Formulars\\": "src/",
+      "ChBie\\FormularsTests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "development"
+    }
+  }
+}
